@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>JavaScript Is Love 💛...</h1>
+            <script>
+                
+              
+                   /*
+                This function calculates area of any rectangular shape,
+                you have to pass length and breadth of the shape
+                and it will return the area of the shape
+                */
+
+                function calculateArea(length, breadth){
+                    const area = length * breadth;
+                    console.log(`Area for length ${length} and breadth ${breadth} is ${area}`);
+
+                    return area;
+                    const l1 =5;
+                const b1 =3;
+                calculateArea(l1,b1);
+                }
+                const Area1 = calculateArea(5,3);
+                console.log(`Area of table is : ${Area1} sq.meters`);
+
+               
+            //No Argument No Return 
+
+                function sayHello(){
+                    console.log(`Hello`);
+                }
+                sayHello();
+
+            //Argument but No Return
+                function sayHello(StudentName){
+                    console.log(`Hello${StudentName}`);
+                }
+                sayHello('RTC');
+                sayHello('Rutuja');
+
+            //No Argument but Return
+                function getPassingMark(){
+                return 40;
+                }
+                const PassingMark = getPassingMark();
+                console.log(PassingMark);
+
+            //Argument and Return
+                function areaOfSquare(side) {
+                const area = side * side;
+              return area;
+                }
+                const A = areaOfSquare(10);
+                console.log(`Area of Square :${A} `);
+
+                //Default Argument
+                function sayHello(StudentName='User'){
+                    console.log(`Hello ${StudentName}`);
+                }
+                sayHello(`Monika`);
+
+                //Simpale Interest
+                function calculateSimpleInterest(principle,rate,time){
+                    const SimpleInterest = (principle * rate * time) /100;
+
+                    console.log(`The aSimple Interest is ${SimpleInterest}`);
+
+                }
+                calculateSimpleInterest(2000,5,6);
+                
+                //Area of Circle
+               
+                const pi = 2.145;
+       function findArea(r)
+       {
+       return (pi * r * r);
+       }
+       let r,Area;
+       r = 8; 
+       Area = findArea(r);
+       console.log("Area of Circle: "+ Area);
+
+            
+
+
+               
+                
+              
+          </script>
+        </body>
+        </html>
